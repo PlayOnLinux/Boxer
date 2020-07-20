@@ -258,7 +258,7 @@ NSString * const BXEmulatedJoystickClassKey = @"BXEmulatedJoystickClassKey";
 
 - (void) releaseButton: (NSNumber *)button
 {
-	[self buttonUp: [button unsignedIntegerValue]];
+	[self buttonUp: static_cast<BXEmulatedJoystickButton>([button unsignedIntegerValue])];
 }
 
 @end

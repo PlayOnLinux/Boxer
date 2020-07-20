@@ -131,7 +131,7 @@
 	<key>CFBundleIconFile</key>
 	<string>boxer.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.washboardabs.boxer</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -139,11 +139,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0.0-alpha</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>Boxr</string>
 	<key>CFBundleVersion</key>
-	<string>2.0.0-alpha+20160215.1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ContactEmail</key>
 	<string>support@boxerapp.com</string>
 	<key>CoverArtSearchURL</key>

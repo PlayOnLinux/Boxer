@@ -28,12 +28,6 @@
 //Used by BXThrustmasterFCS -directionOfPOV:
 #define BXThrustmasterFCSPOVThreshold 0.25f
 
-enum
-{
-    BXThrustmasterFCSRudderAxis = BXGameportX2Axis,
-    BXThrustmasterFCSHatAxis = BXGameportY2Axis
-};
-
 
 #pragma mark -
 #pragma mark Implementation
@@ -146,7 +140,5 @@ enum
     return ([self directionForPOV: POVNumber] & direction) == direction;
 }
 
-- (float) rudderAxis                        { return [self positionForGameportAxis: BXThrustmasterFCSRudderAxis]; }
-- (void) setRudderAxis: (float)position		{ [self setPosition: position forGameportAxis: BXThrustmasterFCSRudderAxis]; }
 
 @end

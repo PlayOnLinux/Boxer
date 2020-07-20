@@ -35,7 +35,13 @@ typedef NS_ENUM(NSUInteger, BXGameportAxis)
     BXWheelWheelAxis            = BXGameportXAxis,
     BXWheelCombinedPedalAxis    = BXGameportYAxis,
     BXWheelAcceleratorAxis      = BXGameportX2Axis,
-    BXWheelBrakeAxis            = BXGameportY2Axis
+    BXWheelBrakeAxis            = BXGameportY2Axis,
+
+	BXThrustmasterFCSRudderAxis = BXGameportX2Axis,
+	BXThrustmasterFCSHatAxis = BXGameportY2Axis,
+
+	BXCHFlightstickProRudderAxis    = BXGameportX2Axis,
+	BXCHFlightstickProThrottleAxis  = BXGameportY2Axis
 };
 
 

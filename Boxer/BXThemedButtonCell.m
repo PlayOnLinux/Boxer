@@ -387,12 +387,12 @@
     if (image.isTemplate)
     {       
         NSColor *tint = (self.isEnabled) ? theme.textColor : theme.disabledTextColor;
-        NSShadow *shadow = theme.textShadow;
+        //NSShadow *shadow = theme.textShadow;
         
         NSImage *tintedImage = [image imageFilledWithColor: tint atSize: imageRect.size];
         
         [NSGraphicsContext saveGraphicsState];
-            [shadow set];
+            //[shadow set];
             [tintedImage drawInRect: imageRect
                            fromRect: NSZeroRect
                           operation: NSCompositeSourceOver

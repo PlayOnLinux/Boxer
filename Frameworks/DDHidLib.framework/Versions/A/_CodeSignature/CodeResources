@@ -10,67 +10,176 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		qceXTCGt6zYqnTNT09Ea1FZwz/k=
+		g02O+Stc/UvOB16tAj2d7NspAtQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DDHidAppleMikey.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UUN7Fj6sGUkb11MnZlhXhaKTIls=
+			</data>
+			<key>hash2</key>
+			<data>
+			qbgRvD4mzn5sbIVzFxFg5sMa2A4oCzL3pv/NIpJlRNU=
+			</data>
+		</dict>
 		<key>Headers/DDHidAppleRemote.h</key>
-		<data>
-		1uPYLfm69EQwjvw54V4YHSOQOXw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			1uPYLfm69EQwjvw54V4YHSOQOXw=
+			</data>
+			<key>hash2</key>
+			<data>
+			EHS7XZA8Hok+Ep9As0RekHnGBBqKvPqXda0OQjdzLBI=
+			</data>
+		</dict>
 		<key>Headers/DDHidDevice.h</key>
-		<data>
-		dIKiCuAoNV0aIcDuUgTRpC1fOIU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			dIKiCuAoNV0aIcDuUgTRpC1fOIU=
+			</data>
+			<key>hash2</key>
+			<data>
+			dZYxfkKBUKG3j2lhca+kIlKMdn6Vqk5QpWxXCmA1Eak=
+			</data>
+		</dict>
 		<key>Headers/DDHidElement.h</key>
-		<data>
-		u0oXi4iueZzQ+n97XpMIhj+XlUY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			9bZWHxQ7TqfPKuS+su3og7uvuXg=
+			</data>
+			<key>hash2</key>
+			<data>
+			Mqk4A534KPx4q1EDT1fbGJ79adiPUgaYdt9eOOzxngY=
+			</data>
+		</dict>
 		<key>Headers/DDHidEvent.h</key>
-		<data>
-		4CNqX4nAnC/ZshCbBAb4ZX4Rh9g=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			4CNqX4nAnC/ZshCbBAb4ZX4Rh9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			UTf7STSp5rtm6Rntb3qO1tc8t6S1PxOUTpm74BYqDF8=
+			</data>
+		</dict>
 		<key>Headers/DDHidJoystick.h</key>
-		<data>
-		gFqEq1XemmSy+0Nj3ykECyDoVuU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			gFqEq1XemmSy+0Nj3ykECyDoVuU=
+			</data>
+			<key>hash2</key>
+			<data>
+			EE3NKROBLNTnNKdwQjgCPfeLrsTLWHKQYwXBliULp8Y=
+			</data>
+		</dict>
 		<key>Headers/DDHidKeyboard.h</key>
-		<data>
-		K3N8pMr47cun6oFYQS1jihRZBtQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			K3N8pMr47cun6oFYQS1jihRZBtQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			m+jbjuIVKCk2Tp+jAPU+s0cnsG68fcpfPPfWyDTRi2I=
+			</data>
+		</dict>
 		<key>Headers/DDHidKeyboardBarcodeScanner.h</key>
-		<data>
-		TGwazkMyjmH+zZS8aLM2kq4AgFg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			K4evYTPmvCTt8kYFmB2XzcyRL/E=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bo8c7ykVCLKydF3McsW8hKCmjAHQDM/V/xQQhbYivWs=
+			</data>
+		</dict>
 		<key>Headers/DDHidLib.h</key>
-		<data>
-		X5Hpzyk4Ps1J6RUYaGiuJ1Lq0VQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			aExMHqIcxjSSJi6I4b86Sx0U4xU=
+			</data>
+			<key>hash2</key>
+			<data>
+			98Rs3kL+pnN1i38fhHilbcOobAu8pMCYKy9u58BUFxQ=
+			</data>
+		</dict>
 		<key>Headers/DDHidMouse.h</key>
-		<data>
-		h7ph1JvmstMgG6f4EdPMmbSz53I=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			h7ph1JvmstMgG6f4EdPMmbSz53I=
+			</data>
+			<key>hash2</key>
+			<data>
+			H6zkY5Y3taETYquMxuL+RKPIjbOtxH7d1Be9SkcteDE=
+			</data>
+		</dict>
 		<key>Headers/DDHidQueue.h</key>
-		<data>
-		Vmu2pDKujSZrwmV/XWkJEobrGEY=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vmu2pDKujSZrwmV/XWkJEobrGEY=
+			</data>
+			<key>hash2</key>
+			<data>
+			3nqWYHcX293SvuXetVY0EeyFAw+Lt4I5MivZCDVoZZ0=
+			</data>
+		</dict>
 		<key>Headers/DDHidUsage.h</key>
-		<data>
-		ebufKKuX0c2WslrOlwyVE/fqYTg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ebufKKuX0c2WslrOlwyVE/fqYTg=
+			</data>
+			<key>hash2</key>
+			<data>
+			H47eb/Dqgs+tk5iFYJqq476UkU8WNgQaYPOXYxhJjng=
+			</data>
+		</dict>
 		<key>Headers/DDHidUsageTables.h</key>
-		<data>
-		XbK2kDvmZVK53jTXGU+NDQ2f9LQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			XbK2kDvmZVK53jTXGU+NDQ2f9LQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			W1ieAYHvDja6XbZQvuOCh+xyAzTb/MZxo6IYqFnkjhI=
+			</data>
+		</dict>
 		<key>Resources/DDHidStandardUsages.plist</key>
-		<data>
-		rDHQmUwIJwKZara4H/wJNj6zro4=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			rDHQmUwIJwKZara4H/wJNj6zro4=
+			</data>
+			<key>hash2</key>
+			<data>
+			npxb6SPuNoeP1ENFBXTQQZkSNXv1mmKBWf8eAmdZ1ug=
+			</data>
+		</dict>
 		<key>Resources/Info.plist</key>
-		<data>
-		qceXTCGt6zYqnTNT09Ea1FZwz/k=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			g02O+Stc/UvOB16tAj2d7NspAtQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			83SBc12IJWAs/01xbUs8/glY4REvRdU96BoLJgQBkM8=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
@@ -89,6 +198,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -148,6 +262,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

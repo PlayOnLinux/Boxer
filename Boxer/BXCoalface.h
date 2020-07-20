@@ -21,6 +21,7 @@ extern "C" {
 #import "config.h"
 #import "video.h"
 #import <stdio.h>
+#import <inttypes.h>
 	
 //Remapped replacements for DOSBox's old sdlmain functions
 #define GFX_Events boxer_processEvents
@@ -76,7 +77,7 @@ extern "C" {
     void boxer_shellWillReadCommandInputFromHandle(DOS_Shell *shell, Bit16u handle);
     void boxer_shellDidReadCommandInputFromHandle(DOS_Shell *shell, Bit16u handle);
     
-	//Called from shell_misc.cpp to let Boxer rewrite or interrupt the shell's input processing.
+//Called from shell_misc.cpp to let Boxer rewrite or interrupt the shell's input& processing.
     //Returns true if Boxer has modified any of the parameters passed by reference.
 	bool boxer_handleShellCommandInput(DOS_Shell *shell, char *cmd, Bitu *cursorPosition, bool *executeImmediately);
     

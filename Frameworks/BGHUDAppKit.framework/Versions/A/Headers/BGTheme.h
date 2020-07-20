@@ -105,10 +105,6 @@
 -(NSColor *)highlightTextColor;
 -(NSColor *)disabledTextColor;					//Color used to draw disabled text
 -(NSShadow *)dropShadow;						//Drop shadow used on all controls
-//--Added 2009-11-17 by Alun Bestor to add drop shadows for text also
--(NSShadow *)textShadow;
-//--End of modifications
-
 -(CGFloat)alphaValue;								//Alpha value that is an optional paremeter, used only
 												//if you want certain colors to be draw with the same
 												//alpha value.

@@ -59,7 +59,6 @@
 - (BOOL) isWrapping;
 - (long) maxValue;
 - (long) minValue;
-- (IOHIDElementType) type;
 
 - (NSComparisonResult) compareByUsage: (DDHidElement *) device;
 

@@ -27,7 +27,7 @@
 //When simulating typing, this many slots will be reserved in the emulated keyboard buffer to avoid flooding.
 #define BXTypingKeyboardBufferReserve 3
 
-typedef KBD_KEYS BXDOSKeyCode;
+typedef enum KBD_KEYS BXDOSKeyCode;
 
 @interface BXEmulatedKeyboard : NSObject
 {

@@ -205,30 +205,27 @@
         
         NSColor *textColor;
         NSShadow *textShadow;
+        textShadow = [NSShadow shadowWithBlurRadius: 2.0f offset: NSMakeSize(0, -1.0f) color: [NSColor colorWithCalibratedWhite: 0 alpha: 0.75f]];
         
         if (!self.isEnabled)
         {
             textColor = theme.disabledTextColor;
-            textShadow = theme.textShadow;
+            //textShadow = theme.textShadow;
         }
         //Use white text to stand out against blue background
         else if (self.programIsDefault)
         {
             textColor = [NSColor whiteColor];
-            textShadow = [NSShadow shadowWithBlurRadius: 2.0f
-                                                 offset: NSMakeSize(0, -1.0f)
-                                                  color: [NSColor colorWithCalibratedWhite: 0 alpha: 0.75f]];
+            
         }
         //Darken text when pressed in
         else if (self.isHighlighted)
         {
             textColor = [NSColor colorWithCalibratedWhite: 0.15f alpha: 1];
-            textShadow = theme.textShadow;
         }
         else
         {
             textColor = theme.textColor;
-            textShadow = theme.textShadow;
         }
 		
         NSRange range = NSMakeRange(0, newTitle.length);

@@ -553,8 +553,12 @@ CVReturn BXDisplayLinkCallback(CVDisplayLinkRef displayLink,
 	BXGLRenderingView *view = (__bridge BXGLRenderingView *)displayLinkContext;
     
     if (view.needsCVLinkDisplay && !view.inViewAnimation)
-        [view display];
-    
+        @try {
+            [view display];
+        } @catch (NSException *exception) {
+            // hack: NSInternalInconsistencyException on 10.14+
+        }
+
 	[pool drain];
 	return kCVReturnSuccess;
 }

@@ -26,11 +26,6 @@ enum {
 };
 
 enum {
-    BXCHFlightstickProRudderAxis    = BXGameportX2Axis,
-    BXCHFlightstickProThrottleAxis  = BXGameportY2Axis
-};
-
-enum {
     BXCHFlightstickPrimaryPOV = 0,
     BXCHCombatStickPrimaryPOV = BXCHFlightstickPrimaryPOV,
     BXCHCombatStickSecondaryPOV = 1
